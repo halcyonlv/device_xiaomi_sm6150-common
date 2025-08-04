@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "Launcher3OverlayCommon",
+    theme: "Launcher3OverlayCommon",
+    product_specific: true,
+}
