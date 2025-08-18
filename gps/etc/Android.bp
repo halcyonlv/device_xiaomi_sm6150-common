@@ -1,3 +1,50 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "apdr.conf",
+    src: "apdr.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flp.conf",
+    src: "flp.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "gnss_antenna_info.conf",
+    src: "gnss_antenna_info.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "gps.conf",
+    src: "gps.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "izat.conf",
+    src: "izat.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "lowi.conf",
+    src: "lowi.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sap.conf",
+    src: "sap.conf",
+    vendor: true,
+}
+
 prebuilt_etc {
     name: "gnss@2.0-base.policy",
     vendor: true,
