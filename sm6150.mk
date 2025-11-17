@@ -37,6 +37,8 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # Audio
+$(call soong_config_set,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
